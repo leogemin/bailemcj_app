@@ -2,6 +2,26 @@
   "expo": {
     "name": "bailemcj_app",
     "slug": "bailemcj_app",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ]
+    ],
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.anonymous.bailemcj_app"
+    },
+    "ios": {
+      "bundleIdentifier": "com.anonymous.bailemcj-app"
+    }
   }
 }

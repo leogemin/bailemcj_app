@@ -1,4 +1,4 @@
-package com.bailemcjapp
+package com.anonymous.bailemcj_app
 
 import android.os.Build
 import android.os.Bundle
