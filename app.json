@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "bailemcj_app",
+    "name": "Baile dos Namorados Check IN",
     "slug": "bailemcj_app",
+    "icon": "./assets/icon.png",
     "version": "1.0.0",
     "plugins": [
       [
@@ -22,6 +23,11 @@
     },
     "ios": {
       "bundleIdentifier": "com.anonymous.bailemcj-app"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "437feda9-dc00-45ff-8c1b-6036b296b197"
+      }
     }
   }
 }

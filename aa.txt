@@ -1,0 +1,3 @@
+Keystore password: fd1f60c81b1adb5ac6456b73883735ec
+Key alias:         2139ac099f4cc8d2953a307edd438347
+Key password:      dfe764d660a2836ca4a5f2d78dab581e
