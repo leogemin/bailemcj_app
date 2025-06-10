@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Baile dos Namorados Check IN",
+    "name": "Baile dos Namorados Check in",
     "slug": "bailemcj_app",
     "icon": "./assets/icon.png",
     "version": "1.0.0",
@@ -15,6 +15,7 @@
       ]
     ],
     "android": {
+      "icon": "./assets/icon.png",
       "permissions": [
         "android.permission.CAMERA",
         "android.permission.RECORD_AUDIO"
